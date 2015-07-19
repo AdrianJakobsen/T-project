@@ -3,16 +3,15 @@ import java.util.Date;
 /**
  * Created by Adrian on 18.07.2015.
  */
-public class User {
+public class Score {
 
-    private String name;
+    private String UserName;
     private Date date;
     private int score;
 
 
-
-    public User(String name, Date date, int score) {
-        this.name =name;
+    public Score(String UserName, Date date, int score) {
+        this.UserName = UserName;
         this.date =date;
         this.score = score;
 
@@ -34,12 +33,11 @@ public class User {
         this.date = date;
     }
 
-    public String getName() {
-
-        return name;
+    public String getUserName() {
+        return UserName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUserName(String userName) {
+        UserName = userName;
     }
 }

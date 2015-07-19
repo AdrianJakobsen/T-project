@@ -1,5 +1,3 @@
-package blocks;
-
 import javafx.scene.paint.Color;
 
 /**
